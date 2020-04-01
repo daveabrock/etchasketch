@@ -61,7 +61,7 @@ function handleKey(e) {
         e.preventDefault();
         draw({ key: e.key })
     }
-    if (e.key === 'e') {
+    if (e.key === 'e' || e.key === '7') {
         clearCanvas();
     }
 }
